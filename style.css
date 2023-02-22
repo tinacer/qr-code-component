@@ -1,0 +1,37 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    margin: 30px 0 0 0;
+    font-weight: 700;
+}
+
+p {
+   color:hsl(220, 15%, 55%);
+   font-weight: 400;
+   margin: 15px 20px 0 20px;
+}
+
+.QR-code {
+    border-radius: 15px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    margin: 300px auto 300px auto;
+    padding: 20px;
+    border-radius: 15px;
+    width: 420px;
+    box-shadow: 0 5px 2px hsl(220, 15%, 55%);
+}
